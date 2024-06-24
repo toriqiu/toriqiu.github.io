@@ -32,10 +32,33 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+
        
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
+
+
+            <div class="post">
+
+        {% if page.cv_pdf %}
+          <a
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
+        {% endif %}
+    
+
+          
+
+
+
+
+
+
 
       {% endif %}
 
