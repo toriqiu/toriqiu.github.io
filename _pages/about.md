@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+cv_pdf: example_pdf.pdf
+
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 # profile:
@@ -17,6 +19,13 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+
+Hello! I am an incoming Ph.D. student in Societal Computing at Carnegie Mellon University. 
+
+My interests are in responsible applications of machine learning to healthcare and public policy, especially to assist with human decision-making. 
+
+**Contact:** toriq [at] cs [dot] cmu [dot] edu
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
